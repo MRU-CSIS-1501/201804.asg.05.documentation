@@ -76,4 +76,4 @@ x #000099
   #888888
 </pre>
 
-What this is telling you is this: each character in the left-most column except for the space (yes, there's a space on that last line!) is going to be colored with hex color <span style="background-color:#000099;">#000099</span>. Each space will be <span style="background-color:#888888;">#888888</span>.
+What this is telling you is this: each character in the left-most column except for the space (yes, there's a space on that last line!) is going to be colored with hex color `#000099` ![#000099](https://placehold.it/15/000099/000000?text=+). Each space will be colored with hex color `#888888` ![#888888](https://placehold.it/15/888888/000000?text=+).
