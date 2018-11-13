@@ -6,6 +6,7 @@ Since files associated with a given piece of ASCII art need to go into particula
 
 ## What's provided to you already
 
+- final fields `pngRootDir`, `hexRootDir`, `artRootDir`, and `mapRootDir`
 - method `public ArrayList<String> availableArtFiles()`
   - this method returns the names of all ASCII art files in the **ascii-art-files** directory
   - you will want to use this in **ArtiiApp** to help you with menu option 3 (loading a new art file)
