@@ -77,3 +77,13 @@ x #000099
 </pre>
 
 What this is telling you is this: each character in the left-most column except for the space (yes, there's a space on that last line!) is going to be colored with hex color `#000099` ![#000099](https://placehold.it/15/000099/000000?text=+). Each space will be colored with hex color `#888888` ![#888888](https://placehold.it/15/888888/000000?text=+).
+
+### PNG files
+
+These are image files created by turning each character into a single colored pixel. The color is determined by the associated color map file. If no color map file is provided, then the default color for every character/pixel is white!
+
+You can view the images using FileZilla. See the FileZilla info for more detail.
+
+### Hex color files
+
+These are just like the PNG files - except that instead of pixels, we have hex color codes. These files will be used in the automated marking process.
