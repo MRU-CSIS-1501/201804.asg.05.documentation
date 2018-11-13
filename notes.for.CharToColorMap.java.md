@@ -2,7 +2,7 @@
 
 ## Background
 
-If you want to have a piece of ASCII art colored something than white when it's converted, you will need to make a hex color map file with the proper format in the correct location. See the File Notes section [here](./directory.structure.and.file.notes.md) for further details.
+If you want to have a piece of ASCII art colored something other than white when it's converted, you will need to make a hex color map file with the proper format in the correct location. See the File Notes section [here](./directory.structure.and.file.notes.md) for further details.
 
 `AsciiToPngConverter` objects need a `CharToColorMap` object to tell them how to color the characters that are being converted.
 
