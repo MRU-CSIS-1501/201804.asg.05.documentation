@@ -10,7 +10,6 @@ When you begin this assignment, we won't have covered files yet (but will shortl
 
 - completed constructors `public AsciiArt()` and `public AsciiArt(String filePath)`
   - you will need to complete the `init()` method for these constructors to work properly
-  - for the 
 - constant `DEFAULT_ART`
   - this String is the art used to create an object when the no-arg constructor is called
 
