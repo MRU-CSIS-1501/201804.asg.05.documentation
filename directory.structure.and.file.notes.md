@@ -76,4 +76,4 @@ x #000099
   #888888
 </pre>
 
-What this is telling you is this: each character in the left-most column except for the space (yes, there's a space on that last line!) is going to be colored with hex color `#000099`
+What this is telling you is this: each character in the left-most column except for the space (yes, there's a space on that last line!) is going to be colored with hex color `#000099` `RGB(0,255,0)`  
