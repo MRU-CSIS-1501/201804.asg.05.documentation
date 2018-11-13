@@ -11,7 +11,7 @@ When you begin this assignment, we won't have covered files yet (but will shortl
 - partially-completed constructors `public AsciiArt()` and `public AsciiArt(String filePath)`
   - you will need to complete them as noted in the code
 - constant `DEFAULT_ART`
-  - this String is the art used to create an object created when the no-arg constructor is called
+  - this String is the art used to create an object when the no-arg constructor is called
 
 ## What you need to complete
 
