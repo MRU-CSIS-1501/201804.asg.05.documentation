@@ -21,6 +21,6 @@ With that in mind, `ArtiiApp` objects have the following minions:
 
 ## What you need to complete
 
-There are a number of methods marked TODO - you need to complete each one. (Please remove the TODO when you have completed the method.)
+You only need to complete the two public methods TODO. One of them is the constructor. (Please remove the TODO when you have completed the method.)
 
-If you need to create any helper methods, they should be declared **private** and **non-static**.
+You will also have to create **numerous** helper methods; otherwise, your **run()** method will be insanely hard to understand! These helpers should be declared **private** and **non-static**.

@@ -27,28 +27,24 @@ In addition, you will likely have other assignments and projects due around the 
 
 And you're probably pretty weary by the end of the semester.
 
-## Suggestions for a plan of attack
+## A suggested plan of attack
 
 Starting a major assignment can feel overwhelming...where do you start?!?
 
 Here are my suggestions.
 
-1. make sure you understand how cards are removed in the Parade: read that section of the rules carefully! Look at the example in the rules and make sure you get why the cards that get removed **are** removed. Look at the examples in the documentation that involve card removal as well and confirm that you get why the cards that are shown as being removed are marked as such.
-1. skim through the documentation of the helper classes provided, just to get an idea of what each class can do for you
-1. in the **ParadeTutor.java** file (where all of your work will be done), don't think about any of the complexities that you eventually have to tackle - just create a super-simplified version of the program and then gradually add features to it. Each step of the way, you should have a functioning program! For example, you could follow a progression like this to start:
+1. make sure you look through the samples [here](201804.asg05.ascii.art.docs.md) in the docs so that you have a good idea as to how a functioning program works - you can't build something unless you know what it's supposed to do!
+1. skim through the documentation blocks and look at everything marked with a TODO; you want to familiarize yourself with what's in the source code and get a general feel for what needs to be done
+1. build the solution class by class - starting with the easier ones - and make sure you pass all the tests for that class before moving on to the next class. By doing this, you'll be fairly confident that when you start working on the `ArtiiApp.java` code, all the objects involved will work properly so any bugs that appear should be confined to dealing with user input. A suggested progression would be:
+   1. `FileHelper`: this class is very small with short easy-to-code methods that _mostly_ deal with String concatenation. And you don't have to deal with files and exceptions here.
+   1. `AsciiArt`: this class has only a few methods as well and you don't need to worry about files and such until the very end (when you need to deal with them in the second constructor). Once you have this working - even without the file-related constructor complete - you could safely move on to the next class and come back and finish the other constructor....
+   1. `CharToColorMap`: this is a tiny class - we probably would have started here first, but it does require us to deal with files and exceptions.
+   1. `AsciiToPngConverter`: hard to believe, but this is also a tiny class!  
+   1. `ArtiiApp` can be left for last - it's easily the longest class...but if you've completed the previous 4 classes and have them passing the tests, you'll be surprised at how nicely everything comes together.
 
-   1. the program just prints out a welcome
-   1. the program prints out the welcome and then a placeholder ("like Parade display goes here") for the cards in the parade
-   1. the program does 1 and 2, and then prints the main menu
-   1. the program does 1 to 3, and then prompts for the user input
-   1. the program does 1 to 4, and then takes in user input and runs a stubbed-out method that just prints a message ("handling display new parade", or "handling showing a marked-up parade", or "handling quit")
-   1. the program does 1 to 5, and continues to loop until the user decides to quit
-   1. the program does 1 to 6, and then shows 1 card from the InfiniteDeck instead of a placeholder.
-   1. continue in this fashion, taking small steps
+By working in this fashion, coding a bit and testing as you go, you feel like you're accomplishing something and moving forward - THIS IS SUPER IMPORTANT! A huge part of being successful in any programming task is about confidence (both in yourself and your code).
 
-   By working in this fashion, you always have a working program, which makes you feel like you're accomplishing something and moving forward - THIS IS SUPER IMPORTANT! A huge part of being successful in any programming task is about confidence.
-
-   Another benefit of working this way is that it is harder for bugs to creep in, because you are working in small steps that focus on a single feature.
+Another benefit of working this way is that it is harder for bugs to creep in, because you are working in small steps and testing as you go.
 
 ## Running tests
 

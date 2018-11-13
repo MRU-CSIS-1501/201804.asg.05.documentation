@@ -8,13 +8,13 @@ When you begin this assignment, we won't have covered files yet (but will shortl
 
 ## What's provided to you already
 
-- partially-completed constructors `public AsciiArt()` and `public AsciiArt(String filePath)`
-  - you will need to complete them as noted in the code
+- completed constructors `public AsciiArt()` and `public AsciiArt(String filePath)`
+  - you will need to complete the `init()` method for these constructors to work properly
 - constant `DEFAULT_ART`
   - this String is the art used to create an object when the no-arg constructor is called
 
 ## What you need to complete
 
-There are a number of methods marked TODO - you need to complete each one. (Please remove the TODO when you have completed the method.)
+There are a number of sections in the code marked TODO - you need to complete each one. (Please remove the TODO when you have completed the method.)
 
 If you need to create any helper methods, they should be declared **private** and **non-static**.
