@@ -9,9 +9,6 @@ Since files associated with a given piece of ASCII art need to go into particula
 - method `public ArrayList<String> availableArtFiles()`
   - this method returns the names of all ASCII art files in the **ascii-art-files** directory
   - you will want to use this in **ArtiiApp** to help you with menu option 3 (loading a new art file)
-- constant `ROOT_DIR`
-  - this String is the path to **5.asg/AsciiArtii** in your home directory
-  - you will need this constant for many of the methods you write in the FileHelper class
 
 ## What you need to complete
 
