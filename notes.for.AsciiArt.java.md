@@ -4,7 +4,7 @@
 
 We need to create a class to capture all the details about ASCII art. This is a very important class and deserves some attention!
 
-When you begin this assignment, we won't have covered files yet (but will shortly thereafter). To work around this, this class defaults to creating art objects that don't come from a file - they come from a constant that is defined in the class.
+When you begin this assignment, we won't have covered files yet (but will shortly thereafter). To work around this, this class defaults to creating art objects that don't come from a file - they come from a constant that is defined in the class. Hello Kitty!
 
 ## What's provided to you already
 

@@ -25,4 +25,4 @@ There are quite a few methods available in here; we only need the following:
 
 ## What you need to complete
 
-This sucker is DONE. You don't need to add anything here.
+This sucker was completed by the fine folks from Princeton. You don't need to do anything here (and neither did I, for which I am profoundly grateful).
