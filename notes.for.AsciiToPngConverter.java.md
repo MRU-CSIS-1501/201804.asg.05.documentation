@@ -18,3 +18,7 @@ Nothing - you've got to build this sucker from scratch!
 There are just three methods, including 1 constructor, that you need to do in here - they are marked TODO. (Please remove the TODO when you have completed the method.)
 
 If you need to create any helper methods, they should be declared **private** and **non-static**.
+
+## What you can assume
+
+You can assume you will never be asked to convert an AsciiArt object that is empty.

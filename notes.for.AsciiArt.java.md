@@ -19,3 +19,7 @@ When you begin this assignment, we won't have covered files yet (but will shortl
 There are a number of sections in the code marked TODO - you need to complete each one. (Please remove the TODO when you have completed the method.)
 
 If you need to create any helper methods, they should be declared **private** and **non-static**.
+
+## What you can assume
+
+You can assume you won't be asked to make an AsciiArt object from an empty file.

@@ -17,3 +17,9 @@ If you want to have a piece of ASCII art colored something other than white when
 There are just three methods (and two of them are constructors!) that you need to do in here - they are marked TODO. (Please remove the TODO when you have completed the method.)
 
 If you need to create any helper methods, they should be declared **private** and **non-static**.
+
+## What you can assume
+
+All color maps you need to process are well-formed (that is to say they won't have any format errors).
+
+You can also assume that you won't have an empty map file.

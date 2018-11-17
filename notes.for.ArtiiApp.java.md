@@ -24,3 +24,9 @@ With that in mind, `ArtiiApp` objects have the following minions:
 You only need to complete the two public methods TODO. One of them is the constructor. (Please remove the TODO when you have completed the method.)
 
 You will also have to create **numerous** helper methods; otherwise, your **run()** method will be insanely hard to understand! These helpers should be declared **private** and **non-static**.
+
+## IMPORTANT NOTE
+
+When you display the unique characters in the current ASCII art, you need to replace the space character in the display (' ') with this character: █ 
+
+Why? I thought it looked better - with just a blank in the display, it wasn't obvious whether that was supposed to be a space...or was a bug! 
