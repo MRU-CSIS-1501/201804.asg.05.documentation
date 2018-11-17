@@ -11,7 +11,7 @@ When asked for the task identifier, please use **asg05**.
 
 **WEIGHT: 6%**
 
-**ANY QUESTIONS?** Don't forget that both Jordan and Steve are available in B103/B107/B162 every weekday (and Jordan on Saturday afternoons) to answer any questions you have.
+**ANY QUESTIONS?** You know the drill!
 
 ## Overview
 
@@ -26,6 +26,8 @@ You know by now from your experiences in this course that programming takes time
 In addition, you will likely have other assignments and projects due around the same time as this one.
 
 And you're probably pretty weary by the end of the semester.
+
+So it's a perfect storm of craptacular awesomeness.
 
 ## A suggested plan of attack
 
@@ -48,5 +50,11 @@ Another benefit of working this way is that it is harder for bugs to creep in, b
 
 ## Running tests
 
-Your code will be tested in a variety of ways using a variety of automated tests.
-If you are in Ruben's section, you will want to take a look at the automated testing document.
+Because you're (hopefully!) testing your classes one at a time, I've added a few new `make` commands to make your testing life easier:
+- `make fht`: run just the tests for `FileHelper.java`
+- `make aat`: run just the tests for `AsciiArt.java`
+- `make cmt`: run just the tests for `CharacterToColorMap.java`
+- `make apt`: run just the tests for `AsciiToPngConverter.java`
+- `make app`: run just the tests for `ArtiiApp.java`
+
+`make tests` runs everything, just like always.
