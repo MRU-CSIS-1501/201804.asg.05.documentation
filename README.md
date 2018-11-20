@@ -2,7 +2,7 @@
 
 **DUE: Monday, December 10, 2018 @ 5:00PM**
 
-**WHERE TO GET IT**: `/users/library/csis/comp1501/assignments/5.asg`
+**WHERE TO GET IT**: `/users/library/csis/comp1501/assignments/5.asg.jpratt`
 
 **SUBMISSION PROCEDURE**:
 
